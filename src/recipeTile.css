@@ -9,5 +9,62 @@
 .recipe-name{
     max-width: 200px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 12px 0px;
+}
+
+@media screen and (max-width: 450px){
+
+    .recipe-img{
+        height: 250px;
+        width: 250px;
+    }
+    .recipe-name{
+        max-width: 250px;
+        text-align: center;
+        margin: 7px 5px 40px 5px;
+        
+    }
+}
+
+@media screen and (min-width:450px) and (max-width: 567px) { 
+    .recipe-img{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .recipe-name{
+        font-size: 20px;
+        max-width: 300px;
+        text-align: center;
+        margin: 7px 5px 60px 5px;
+    }
+}
+@media screen and (min-width:567px) and (max-width: 922px) { 
+
+    .recipe-img{
+        height: 280px;
+        width: 280px;
+    }
+    
+    .recipe-name{
+        font-size: 20px;
+        max-width: 280px;
+        text-align: center;
+        margin: 7px 5px 60px 5px;
+    }
+    
+}
+@media screen and (min-width:922px) { 
+    .recipe-img{
+        height: 280px;
+        width: 280px;
+    }
+    
+    .recipe-name{
+        font-size: 20px;
+        max-width: 280px;
+        text-align: center;
+        margin: 7px 5px 60px 5px;
+    }
 }

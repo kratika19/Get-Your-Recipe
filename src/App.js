@@ -33,10 +33,6 @@ function App() {
         <input
           className="app-input"
           placeholder="Enter Ingredient" type="text" value={query} onChange={(e) => { setquery(e.target.value) }} />
-        <input
-          className="app-submit"
-          type="submit"
-          value="Search" />
 
         <select className="app-dropdown" name="" id="">
           <option value="vegan" onClick={() => sethealthLabel("vegan")}>vegan</option>
@@ -53,7 +49,14 @@ function App() {
           <option value="fish-free" onClick={() => sethealthLabel("fish-free")}>fish-free</option>
           <option value="shell-fish-free" onClick={() => sethealthLabel("shell-fish-free")}>shell-fish-free</option>
         </select>
+
+        <input
+          className="app-submit"
+          type="submit"
+          value="Search" />
+
       </form>
+      <hr />
       <div className="app-recipe">
         {recipes.map(recipe => {
           return <RecipeTile recipe={recipe} />;
