@@ -20,6 +20,6 @@ This project is a ReactJS based project which used get recipe api to fetch data.
 
 
 Runs the app on your server at: <br>
-Open []() to view it in the browser.
+Open [https://get-your-recipe.netlify.app/](https://get-your-recipe.netlify.app/) to view it in the browser.
 
 The page will reload if you make edits. 
