@@ -1,3 +1,4 @@
+
 .App{
     display: flex;
     flex-direction: column;
@@ -20,6 +21,7 @@
     background: none;
     border: 1px solid rgb(117, 113, 113);
     outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* color: #313131; */
 }
 
@@ -32,10 +34,40 @@
     border: 2px rgb(173, 117, 226);
     border-radius: 6px;
     color: rgb(248, 248, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .app-submit:hover{
     background-color: rgb(100, 60, 138);
     color: rgb(238, 236, 230);
 
+}
+
+.app-recipe{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 230px 230px;
+    align-items: baseline;
+}
+
+.app-dropdown{
+    position: relative;
+    display: inline-block;
+    padding: 9px 9px;
+    margin-left: 6px;
+    border-radius: 8px;
+    color: rgb(56, 56, 56);
+    background-color: rgb(229, 212, 245);
+    font-size: 15px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+option{
+    background-color: rgb(229, 212, 245);
+    color: black;
+    cursor: pointer;
 }
